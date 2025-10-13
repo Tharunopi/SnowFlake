@@ -11,4 +11,3 @@ CREATE OR REPLACE SCHEMA day_1
     COMMENT = 'All day-1 learning will be executed from this schema'
 
 USE WAREHOUSE tharun
-
