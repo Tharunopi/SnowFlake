@@ -20,3 +20,10 @@ FROM @tharun_learning.external_stage.aws_stage
     PATTERN = '.*OrderDetails.*';
 
 SELECT * FROM orders;
+
+SELECT * FROM @external_stage.aws_stage;
+
+CREATE OR REPLACE STAGE aws_stage
+    url = 's3://bucketsnowflakes3';
+
+SHOW STAGES;
