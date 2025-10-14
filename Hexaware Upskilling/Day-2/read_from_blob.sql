@@ -18,3 +18,5 @@ CREATE OR REPLACE TABLE world_sales(
 SELECT * FROM world_sales;
 
 DROP TABLE world_sales;
+
+DESC TABLE world_sales;
