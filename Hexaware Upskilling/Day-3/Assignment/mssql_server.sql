@@ -1,6 +1,6 @@
-CREATE DATABASE sales;
+CREATE DATABASE sales_azure;
 
-USE sales;
+USE sales_azure;
 
 CREATE TABLE sales_data(
 	sale_id INT IDENTITY(1,1) PRIMARY KEY,
