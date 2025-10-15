@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "databricks-connect>=16.1.6",
+    "snowflake-connector-python>=4.0.0",
 ]
