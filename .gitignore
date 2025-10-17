@@ -1,3 +1,5 @@
 .qodo
 .databricks
 typings
+.venv
+.vscode
