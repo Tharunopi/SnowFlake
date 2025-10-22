@@ -1,0 +1,3 @@
+CREATE SCHEMA day_7;
+
+USE SCHEMA day_7;
