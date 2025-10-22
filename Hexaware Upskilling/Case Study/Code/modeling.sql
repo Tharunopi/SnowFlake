@@ -1,0 +1,8 @@
+SHOW TABLES;
+
+DESC TABLE IT_TECH_GENIE_RETAIL;
+
+ALTER TABLE it_tech_genie_retail
+ADD CONSTRAINT primary_key PRIMARY KEY (ORDERID);
+
+SELECT COUNT(*) FROM it_tech_genie_retail;
